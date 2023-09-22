@@ -1,26 +1,28 @@
-Craigslist Scraper
+# Craigslist Scraper
 
-<u>Craigslist Scraper</u> is a scraping tool that overcomes advanced
-anti-bot systems and helps you gather public data from Craigslist on any
-scale you need. This guide will show you how to scrape Craigslist using
-Oxylabs’ <u>Scraper API</u>.
+[<u>Craigslist
+Scraper</u>](https://oxylabs.io/products/scraper-api/web/craigslist) is
+a scraping tool that overcomes advanced anti-bot systems and helps you
+gather public data from Craigslist on any scale you need. This guide
+will show you how to scrape Craigslist using Oxylabs’ [<u>Scraper
+API</u>](https://oxylabs.io/products/scraper-api).
 
-How it works
+## How it works
 
 You can get Craigslist data by sending a request to our API with the
 URLs you want to access and scrape. The API will return the HTML of any
 public Craigslist page.
 
-Python code example
+### Python code example
 
 The below code sample sends a request to our service, which uses a
 headless browser to execute JavaScript and sends back the HTML of a
 Craigslist page:
 
+```python
 import requests
 from pprint import pprint
 
-```python
 # Structure payload.
 payload = {
    'source': 'universal',
@@ -42,12 +44,13 @@ response = requests.request(
 pprint(response.json())
 ```
 
-Visit the <u>documentation</u> to find more payload parameters and other
-details.
+Visit the
+[<u>documentation</u>](https://developers.oxylabs.io/scraper-apis/web-scraper-api/all-domains)
+to find more payload parameters and other details.
 
-Output sample
+### Output sample
 
-```python
+```json
 {
   "results": [
     {
@@ -68,4 +71,5 @@ Output sample
 Oxylabs Craigslist Scraper API will ease your scraping processes
 significantly. Use it to gather public data, such as jobs, items,
 services, and ads. If you have any questions, feel free to get in touch
-with us via <u>live chat</u> or <u>email</u>.
+with us via [<u>live chat</u>](https://oxylabs.io/) or
+[<u>email</u>](mailto:support@oxylabs.io).
