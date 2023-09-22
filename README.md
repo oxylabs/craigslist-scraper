@@ -1,5 +1,8 @@
 # Craigslist Scraper
 
+[<img src="https://img.shields.io/static/v1?label=&message=Curl&color=brightgreen" />](https://github.com/topics/curl) [<img src="https://img.shields.io/static/v1?label=&message=Headers&color=important" />](https://github.com/topics/headers)
+
+
 [<u>Craigslist
 Scraper</u>](https://oxylabs.io/products/scraper-api/web/craigslist) is
 a scraping tool that overcomes advanced anti-bot systems and helps you
