@@ -74,3 +74,5 @@ significantly. Use it to gather public data, such as jobs, items,
 services, and ads. If you have any questions, feel free to get in touch
 with us via [<u>live chat</u>](https://oxylabs.io/) or
 [<u>email</u>](mailto:support@oxylabs.io).
+
+Also, check this tutorial on [pypi](https://pypi.org/project/craiglist-scraper-api/)
