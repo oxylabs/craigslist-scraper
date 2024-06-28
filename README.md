@@ -48,7 +48,7 @@ pprint(response.json())
 ```
 
 Visit the
-[<u>documentation</u>](https://developers.oxylabs.io/scraper-apis/web-scraper-api/all-domains)
+[<u>documentation</u>](https://developers.oxylabs.io/scraper-apis/web-scraper-api)
 to find more payload parameters and other details.
 
 ### Output sample
